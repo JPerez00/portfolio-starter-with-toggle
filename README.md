@@ -1,36 +1,39 @@
-# Portfolio Blog Starter
+# Portfolio Blog Starter With Next Themes Toggle.
 
-This is a porfolio site template complete with a blog. Includes:
+![Image](/public/images/toggle-action.gif)
+
+This is almost the same as the Vercel portfolio site template, except for an included light and dark mode toggle added for convenience. Includes:
 
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
 - RSS Feed
 - Dynamic OG images
 - Syntax highlighting
-- Tailwind v4
 - Vercel Speed Insights / Web Analytics
 - Geist font
+- [Next Themes](https://github.com/pacocoursey/next-themes) Light & Dark Mode Toggle
 
 ## Demo
 
-https://portfolio-blog-starter.vercel.app
+https://portfolio-starter-with-toggle.vercel.app/
 
-## How to Use
+## Changes
 
-You can choose from one of the following two methods to use this repository:
+I was having issues with the alpha version of Tailwind 4, so I reverted back to the latest stable release. Then I installed [Next Themes](https://github.com/pacocoursey/next-themes).
 
-### One-Click Deploy
+Then I created 2 components `app/components/mode-toggle.tsx`, and `app/components/theme-provider.tsx` to make the toggle work. Then I wrapped the application with the theme provider in `app/layout.tsx`, and finally, I added the icon to the `app/components/nav.tsx` file.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Besides that, nothing else was changed or touched. This is effectively the exact same template as the original Portfolio Blog Starter kit, just with a light and dark mode toggle added for convenience.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+For more details and a step-by-step guide, check the blog post on my website.
 
 ### Clone and Deploy
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
+pnpm create next-app --example https://github.com/JPerez00/portfolio-starter-with-toggle/tree/main your-project-name-here
+
 ```
 
 Then, run Next.js in development mode:

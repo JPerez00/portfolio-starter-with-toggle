@@ -2,7 +2,9 @@
 
 ![Image](/public/images/toggle-action.gif)
 
-This is almost the same as the Vercel portfolio site template, except for an included light and dark mode toggle added for convenience. Includes:
+This template now includes Next-Themes for light and dark modes, along with a convenient toggle button.
+
+To clarify, I only added a few components and changed the CSS structure; the rest is exactly the same as the original Vercel portfolio template. This template already includes:
 
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
@@ -11,21 +13,21 @@ This is almost the same as the Vercel portfolio site template, except for an inc
 - Syntax highlighting
 - Vercel Speed Insights / Web Analytics
 - Geist font
-- [Next Themes](https://github.com/pacocoursey/next-themes) Light & Dark Mode Toggle
+- [Next-Themes](https://github.com/pacocoursey/next-themes) Light & Dark Mode Toggle
 
-## Demo
+## Live Demo
 
 https://portfolio-starter-with-toggle.vercel.app/
 
 ## Changes
 
-I was having issues with the alpha version of Tailwind 4, so I reverted back to the latest stable release. Then I installed [Next Themes](https://github.com/pacocoursey/next-themes).
+I was having issues with the alpha version of Tailwind 4, so I reverted back to the latest stable release and installed [Next-Themes](https://github.com/pacocoursey/next-themes).
 
 Then I created 2 components `app/components/mode-toggle.tsx`, and `app/components/theme-provider.tsx` to make the toggle work. Then I wrapped the application with the theme provider in `app/layout.tsx`, and finally, I added the icon to the `app/components/nav.tsx` file.
 
-Besides that, nothing else was changed or touched. This is effectively the exact same template as the original Portfolio Blog Starter kit, just with a light and dark mode toggle added for convenience.
+Besides that, nothing else was changed or touched. This is the exact same template as the original Portfolio Blog Starter kit, with a light and dark mode toggle added for convenience.
 
-For more details and a step-by-step guide, check the blog post on my website.
+For more details and a step-by-step guide, check the [blog post](https://www.jorge-perez.dev/blog/vercel-template-with-toggle)
 
 ### Clone and Deploy
 

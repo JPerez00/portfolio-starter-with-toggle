@@ -27,7 +27,7 @@ Then I created 2 components `app/components/mode-toggle.tsx`, and `app/component
 
 Besides that, nothing else was changed or touched. This is the exact same template as the original Portfolio Blog Starter kit, with a light and dark mode toggle added for convenience.
 
-For more details and a step-by-step guide, check the [blog post](https://www.jorge-perez.dev/blog/vercel-template-with-toggle)
+For more details and a step-by-step guide, check the [blog post](https://www.jorge-perez.dev/blog/template-with-toggle)
 
 ### Clone and Deploy
 

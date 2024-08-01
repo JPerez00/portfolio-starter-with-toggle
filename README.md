@@ -1,4 +1,4 @@
-# Portfolio Blog Starter With Next Themes Toggle.
+# Vercel's Portfolio Blog Starter With Next Themes Toggle.
 
 ![Image](/public/images/toggle-action.gif)
 
